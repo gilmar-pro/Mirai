@@ -1,0 +1,104 @@
+
+*{
+    
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+main{
+    max-width: 100%;
+    height: 110vh;
+    background-color: mediumspringgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+main .card{
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    position: relative;
+
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    transform: translateX(150%);
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    padding-left: 150px;
+      
+}
+
+.intro h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.intro > h3{
+    font-family: 'Bungee Spice', cursive;
+    margin-bottom: 50px;
+}
+
+.Line{
+    display: flex;
+    flex-direction: column;
+    width: 2px;
+    height: 160px;
+    background-color: black;
+}
+
+.card-info{
+    display: flex;
+    align-items:center;
+    justify-content: space-around ;
+    padding-left: 6em;
+   
+}
+.card-info > .HOBBIES{
+    padding-left: 4em;
+}
+.card-info > .SKILLS{
+    padding-right: 4em;
+}
+
+.card-info h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 30px;
+}
+.card-info  ul>li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.Social{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-left: 6em;
+    margin-left: 20px;
+    width:100%;
+    height: 80px;
+}
+
